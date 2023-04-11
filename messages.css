@@ -1,0 +1,43 @@
+body {
+    margin: 10px auto;
+    width: 470px;
+  }
+  
+  h3 {
+    margin: 0;
+    padding-bottom: .3em;
+    font-size: 1.1em;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 0 .5em;
+  }
+  
+  .pane {
+    /* display: flex; */
+    /* flex-direction: row; */
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c4df9b;
+  }
+  
+  /* .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+  /* } */
+  .remove-button {
+    display: flex;
+    float: right;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    font-size: 110%;
+    color: darkred;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
